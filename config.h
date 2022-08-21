@@ -40,6 +40,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // when write left D2,when write right D3
 #define SOFT_SERIAL_PIN D3
 
+//redifinde tapping_term 500ms
+#define TAPPING_TERM 300
+//定速
+#define MK_3_SPEED
+
 // If you need more program area, try select and reduce rgblight modes to use.
 
 // Selection of RGBLIGHT MODE to use.
