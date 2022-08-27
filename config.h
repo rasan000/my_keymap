@@ -38,12 +38,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //     { B1, B3, B4, B5, E6, B6, D7 }
 
 // when write left D2,when write right D3
-#define SOFT_SERIAL_PIN D3
+#define SOFT_SERIAL_PIN D2
 
 //redifinde tapping_term 500ms
-#define TAPPING_TERM 300
-//定速
-#define MK_3_SPEED
+#define TAPPING_TERM 200
+
+// mouse setting
+#define MK_C_OFFSET_0 4
+#define MK_C_OFFSET_1 8
+#define MK_C_OFFSET_2 16
+
+#define MOUSEKEY_MAX_SPEED 3
+// #define MOUSEKEY_TIME_TO_MAX 1000
+
+
 
 // If you need more program area, try select and reduce rgblight modes to use.
 
