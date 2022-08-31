@@ -44,11 +44,17 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define TAPPING_TERM 200
 
 // mouse setting
-#define MK_C_OFFSET_0 4
-#define MK_C_OFFSET_1 8
-#define MK_C_OFFSET_2 16
+// #define MK_C_OFFSET_0 4
+// #define MK_C_OFFSET_1 8
+// #define MK_C_OFFSET_2 16
 
 #define MOUSEKEY_MAX_SPEED 3
+
+// カーソル操作がトップスピードになるまでの時間
+#define MOUSEKEY_TIME_TO_MAX 30
+
+// ホイールの移動スピード
+#define MOUSEKEY_WHEEL_MAX_SPEED 3
 // #define MOUSEKEY_TIME_TO_MAX 1000
 
 
