@@ -51,10 +51,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MOUSEKEY_MAX_SPEED 3
 
 // カーソル操作がトップスピードになるまでの時間
-#define MOUSEKEY_TIME_TO_MAX 30
+#define MOUSEKEY_TIME_TO_MAX 10
 
 // ホイールの移動スピード
-#define MOUSEKEY_WHEEL_MAX_SPEED 3
+#define MOUSEKEY_WHEEL_MAX_SPEED 2
 // #define MOUSEKEY_TIME_TO_MAX 1000
 
 
