@@ -188,10 +188,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_RAISE] = LAYOUT(
-      KC_TILD,KC_EXLM,KC_AT,KC_HASH,KC_DLR,KC_PERC,                                 KC_QUOT, KC_HOME, KC_UP, KC_LCBR,KC_RCBR,KC_GRV,
-      _______,KC_1,KC_2,KC_3,KC_4,KC_5,                                             KC_LCBR,KC_RCBR,KC_EQL, KC_PLUS,KC_COLN,KC_DQT,
-      _______,KC_6,KC_7,KC_8,KC_9,KC_0,                                             KC_LPRN,KC_RPRN, KC_LT, KC_GT,_______,KC_UNDS,
-      _______, _______, _______, _______, _______, ADJUST, _______,       _______, _______,  _______, _______, _______, _______, _______
+      KC_TILD,KC_EXLM,KC_AT,KC_HASH,KC_DLR,KC_PERC,                                 KC_CIRC, KC_AMPR, KC_ASTR, KC_LCBR,KC_RCBR,KC_GRV,
+      _______,KC_1,KC_2,KC_3,KC_4,KC_5,                                             KC_PLUS,KC_EQL,KC_LCBR,KC_RCBR,KC_COLN,KC_DQT,
+      _______,KC_6,KC_7,KC_8,KC_9,KC_0,                                             KC_LBRC,KC_RBRC, KC_LT, KC_GT,_______,KC_UNDS,
+      _______, _______, _______, _______, _______, ADJUST, _______,       _______, _______,  KC_PIPE, KC_QUES, _______, _______, _______
   ),
 
   [_LOWER] = LAYOUT(
