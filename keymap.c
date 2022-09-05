@@ -195,10 +195,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_LOWER] = LAYOUT(
-      KC_DEL,KC_P7,KC_P8,KC_P9,KC_EQL,KC_BSPC,                            _______,LALT(KC_LEFT), KC_MS_U,LALT(KC_RGHT),_______,KC_DEL,
-      KC_LCAP,KC_P4,KC_P5,KC_P6,KC_MINS,KC_PSLS,	                        _______,KC_MS_L, KC_MS_D,KC_MS_R,_______, _______,
-      _______,KC_P1,KC_P2,KC_P3,KC_PLUS,KC_PAST,                         _______, _______,_______, _______, KC_PGUP, _______,
-      KC_NLCK,KC_0,KC_DOT,KC_COMM,KC_ENT,_______, _______,     KC_MS_BTN1,ADJUST,KC_MS_BTN2,_______,KC_HOME,KC_PGDN,KC_END
+      KC_BSPC,KC_PSLS, KC_P7,KC_P8,KC_P9,KC_EQL,                            _______,LALT(KC_LEFT), KC_MS_U,LALT(KC_RGHT),_______,KC_DEL,
+      KC_LCAP,KC_PAST,KC_P4,KC_P5,KC_P6,KC_MINS,	                        _______,KC_MS_L, KC_MS_D,KC_MS_R,_______, _______,
+      KC_ENT,KC_0,KC_P1,KC_P2,KC_P3,KC_PLUS,                          _______, _______,_______, _______, KC_PGUP, _______,
+      KC_NLCK,_______,KC_COMM,KC_DOT,_______,_______,_______,     KC_MS_BTN1,ADJUST,KC_MS_BTN2,_______,KC_HOME,KC_PGDN,KC_END
   ),
 
   [_ADJUST] = LAYOUT(
